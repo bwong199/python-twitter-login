@@ -10,7 +10,8 @@ Database.initialise(database="learning", host="localhost", user="postgres", pass
 print(Database.get_connection())
 
 
-# Use the client to perform a request for the request token
+# Use the client to perform a req
+# uest for the request token
 consumer = oauth2.Consumer(constants.CONSUMER_KEY, constants.CONSUMER_SECRET)
 client = oauth2.Client(consumer)
 
